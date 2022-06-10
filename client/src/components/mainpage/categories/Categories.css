@@ -1,0 +1,57 @@
+.categories{
+    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 70px auto;
+    height: 100vh;
+}
+.categories form{
+    width: 290px;
+    margin-bottom: 20px;
+}
+.categories label{
+    display: block;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.form-input{
+    display: flex;
+}
+.categories input{
+    padding-left: 20px;
+}
+.categories input, .btn-create{
+    height: 35px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #555;
+    border-radius: 5px;
+    transition: all 0.2s linear;
+    font-size: 15px;
+}
+.categories button:hover{
+    transform: translateY(-5px);
+}
+.categories input{
+    width: 210px;
+}
+.categories button{
+    width: 70px;
+    background: rgb(18, 141, 2);
+    color: white;
+    margin-left: 10px;
+}
+.categories .row{
+    min-width: 290px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+}

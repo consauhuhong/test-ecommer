@@ -1,0 +1,103 @@
+header{
+    min-height: 70px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    background: #61a5a0;
+    position: fixed;
+    z-index: 3;
+    display: none;
+    transition: all 0.2s linear;
+    top: 0;
+    user-select: none;
+}
+.hideHeader{
+    display: flex;
+    top: 0;
+    transition: all 0.2s linear;
+}
+header .logo{
+    flex: 1;
+}
+header a{
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+}
+header ul li{
+    display: inline-block;
+    opacity: 0.7;
+    padding: 0 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+header ul li:hover{
+    opacity: 1;
+}
+.menu{
+    display: none;
+}
+.cart-icon{
+    position: relative;
+    margin-right: 20px;
+}
+.cart-icon span{
+    background: rgb(0, 166, 216);
+    border-radius: 50%;
+    color: white;
+    position: absolute;
+    top:-10px;
+    right: -10px;
+    padding: 5px 7px;
+    font-size: 15px;
+}
+.cart{
+    font-size: 30px;
+}
+.shop{
+    font-size: 20px;
+    color: red;
+}
+.icon-logo{
+    width: 80px;
+    margin-left: 30px;
+}
+.img-logo{
+    width: 100%;
+    height: 100%;
+    user-select: none;
+    border-radius: 50%;
+}
+.icon-theme{
+    font-size: 30px;
+    color: rgb(230, 247, 0);
+    user-select: none;
+    cursor: pointer;
+    margin-left: 20px;
+}
+@media only screen and (max-width: 820px) {
+    header .logo {
+      flex: none;
+      min-width: 115px;
+    }
+  }
+  /* @media only screen and (max-width: 720px) {
+    header ul {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100vh;
+      background: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      opacity: 0.98;
+      z-index: 999999;
+      transition: all 0.4s ease-in-out;
+    }
+  } */

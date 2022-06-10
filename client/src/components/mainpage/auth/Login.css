@@ -1,0 +1,63 @@
+.login-container{
+    width: 400px;
+    height: auto;
+    border: 1px solid rgb(212, 201, 201);
+    border-radius: 5px;
+    padding: 20px 20px;
+    margin: 70px auto;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+#login-container-all{
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.form-container h2{
+    margin-bottom: 10px;
+    width: inherit;
+    height: inherit;
+}
+
+.input-login{
+    display: block;
+    width: 90%;
+    height: 50px;
+    margin-top: 5px;
+    border: 1px solid rgb(212, 201, 201);
+    border-radius: 5px;
+    padding-left: 20px;
+    margin: 10px auto;
+}
+.login-buttom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.btn-login, .btn-register{
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+}
+.btn-login{
+    background: rgb(250, 71, 71);
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 15px;
+}
+.btn-register{
+    background: rgb(73, 137, 255);
+    font-weight: 600;
+    font-size: 15px;
+}
+.input-password{
+    position: relative;
+}
+.showPassword{
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 25px;
+    cursor: pointer;
+}
